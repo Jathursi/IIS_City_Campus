@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { createClient } from 'contentful'
 
-// 
+const client = createClient({
+  space: process.env.REACT_APP_CONTENTFUL_SPACE,
+  accessToken: process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN,
+});
+
 
 function shuffleArray(array) {
   return array.sort(() => Math.random() - 0.5) // Randomize order
