@@ -3,12 +3,13 @@ import { MdMenu } from 'react-icons/md'
 import Sidebar from './Sidebar'
 import Logo from '../assets/logo1.png'
 import { scroller } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 const NavbarMenu = [
     {
         id: 1,
         name: 'Home',
-        url: 'home'
+        url: '/'
     },
     {
         id: 2,
@@ -18,7 +19,7 @@ const NavbarMenu = [
     {
         id: 3,
         name: 'Gallery',
-        url: 'gallery'
+        url: '/circulate/eventsmove'
     },
     {
         id: 4,
@@ -68,9 +69,15 @@ function Topbar() {
                         <ul className='flex items-center space-x-4'>
                             {NavbarMenu.map((menu) => (
                                 <li key={menu.id}>
-                                    <button onClick={() => handleScroll(menu.url)} className='text-b3 hover:text-gray-600'>
-                                        {menu.name}
-                                    </button>
+                                    {menu.url.startsWith('/') ? (
+                                        <Link to={menu.url} className='text-b3 hover:text-gray-600'>
+                                            {menu.name}
+                                        </Link>
+                                    ) : (
+                                        <button onClick={() => handleScroll(menu.url)} className='text-b3 hover:text-gray-600'>
+                                            {menu.name}
+                                        </button>
+                                    )}
                                 </li>
                             ))}
                             <button className='secondary-btn '>

@@ -29,7 +29,7 @@ function Courses() {
     <section>
       <div className='container mt-8'>
         <h1 className='text-2xl font-bold text-left pb-10 uppercase'>On-going Courses</h1>
-        <div className='relative flex items-center'>
+        <div className='flex items-center'>
           <button
             onClick={() => scroll('left')}
             className='absolute left-0 z-10 bg-gray-100 text-bold text-4xl px-3 py-2 rounded-full shadow-md'>&lt;</button>
