@@ -7,7 +7,7 @@ import Events from './Components/Events'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='IIS_City_Campus'>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/circulate" element={<Circulate />}>
