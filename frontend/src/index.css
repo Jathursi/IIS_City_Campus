@@ -4,10 +4,13 @@
 
 @layer components {
   .primary-btn {
-    @apply bg-b3 text-white font-semibold py-2 px-4 rounded-xl hover:scale-110 duration-300;
+    @apply bg-gradient-to-r from-r2 to-b3 text-white font-semibold py-2 px-4 rounded-xl hover:scale-110 duration-300;
   }
   .secondary-btn {
-    @apply bg-r3 text-white font-semibold py-2 px-4 rounded-xl hover:scale-110 duration-300;
+    @apply bg-gradient-to-r from-b3 to-r2 text-white font-semibold py-2 px-4 rounded-xl hover:scale-110 duration-300;
+  }
+  .third-btn {
+    @apply bg-transparent border-r3 border font-semibold py-2 px-4 rounded-xl hover:scale-110 duration-300;
   }
 }
 

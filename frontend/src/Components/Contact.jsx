@@ -31,11 +31,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mx-auto m-10 p-6 bg-gray-50 shadow-lg rounded-lg">
+    <div className="container m-0 mt-6 mb-6 md:m-10 p-6 bg-gray-50 shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">
         Contact Us
       </h2>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-20">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col mx-0 md:mx-20">
         <label className="font-semibold text-gray-700">Name</label>
         <input
           type="text"
@@ -61,7 +61,7 @@ const Contact = () => {
 
         <button
           type="submit"
-          className="mt-6 bg-b3 text-white font-bold py-2 px-4 rounded-md hover:bg-orange-600 transition-all"
+          className="mt-6 bg-b3 text-white font-bold py-2 px-4 rounded-md hover:bg-b2 transition-all"
         >
           Send
         </button>

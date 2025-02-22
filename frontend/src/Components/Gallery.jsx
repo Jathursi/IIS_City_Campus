@@ -50,7 +50,7 @@ function Gallery() {
 
   return (
     <div className="p-4">
-      <h1 className="text-3xl font-bold mb-6 text-center">Gallery</h1>
+      {/* <h1 className="text-3xl font-bold mb-6 text-center">Gallery</h1> */}
       {event ? (
         <div>
           <h2 className="text-2xl font-semibold text-center mb-4">{event.title}</h2>

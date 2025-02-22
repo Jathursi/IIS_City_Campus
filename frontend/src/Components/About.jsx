@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import Logo from '../assets/logo1.png';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -25,9 +26,9 @@ function About() {
           <h2 className='text-black text-1xl'>Follow us on</h2>
           <div className="text-2xl text-black flex gap-4 items-center mt-4 md:mt-0">
             {/* <h3>Follow us on:</h3> */}
-            <FaFacebook />
-            <FaInstagram />
-            <FaLinkedin />
+            <Link to='https://www.facebook.com/IISCC'><FaFacebook className='hover:text-b3'/></Link>
+            <FaInstagram className='hover:text-r3'/>
+            <FaLinkedin className='hover:text-b2'/>
           </div>
         </div>
 
@@ -42,8 +43,8 @@ function About() {
         {/* Right Section: Contact & Map */}
         <div className="text-black flex flex-col gap-2 text-center md:text-left">
           <h2 className="font-bold text-lg">Contact Us</h2>
-          <p className="flex items-center gap-2"><FaPhone /> +123 456 7890</p>
-          <p className="flex items-center gap-2"><FaEnvelope /> info@iiscity.com</p>
+          <p className="flex items-center gap-2"><FaPhone /> 0212 228 060</p>
+          <p className="flex items-center gap-2"><FaEnvelope /> Info@iis.edu.lk</p>
           <p className="flex items-center gap-2"><FaMapMarkerAlt /> No.655, Navalar Road, Nallur, Jaffna</p>
         </div>
 

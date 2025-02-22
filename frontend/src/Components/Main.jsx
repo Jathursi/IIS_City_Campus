@@ -17,16 +17,16 @@ function Main() {
             <section id='/'>
                 <Home />
             </section>
-            <section id='upcomming'>
+            <section id='upcomming' className='mb-10 md:mb-0'>
                 <UpComming />
             </section>
-            <section id='events'>
+            <section id='events' className='mb-5 mx-5 md:mb-0'>
                 <Events />
             </section>
             <section id='courses'>
                 <Courses />
             </section>
-            <section id='contact'>
+            <section id='contact' className='flex justify-center items-center mx-5'>
                 <Contact />
             </section>
             <section id='about'>
