@@ -16,7 +16,13 @@ function AdminSide() {
             </div>
             <div className='w-full bg-white '></div>
             <div >
-
+                <ul className='flex flex-col gap-2 p-3'>
+                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin-dashboard'>Dashboard</a></li>
+                    <li className='bg-gray-200 p-3 rounded-md'><a href='admin-main'>Users</a></li>
+                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/gallery'>Gallery</a></li>
+                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/contact'>Contact</a></li>
+                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/about'>About</a></li>
+                </ul>
             </div>
         </div>
     </div>
