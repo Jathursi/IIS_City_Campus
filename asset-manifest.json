@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/IIS_City_Campus/static/css/main.d3e89d26.css",
-    "main.js": "/IIS_City_Campus/static/js/main.ea00a565.js",
+    "main.css": "/IIS_City_Campus/static/css/main.7080a082.css",
+    "main.js": "/IIS_City_Campus/static/js/main.3093906e.js",
     "static/js/453.d855a71b.chunk.js": "/IIS_City_Campus/static/js/453.d855a71b.chunk.js",
     "static/media/flyer2.png": "/IIS_City_Campus/static/media/flyer2.91b27f942fc80a760a7c.png",
     "static/media/flyer1.png": "/IIS_City_Campus/static/media/flyer1.1fd3e3994b5c2e0dbfe9.png",
     "static/media/logo.png": "/IIS_City_Campus/static/media/logo.43661ee78a08634528d0.png",
     "static/media/logo1.png": "/IIS_City_Campus/static/media/logo1.2cd8e0f0e4204e2053fd.png",
     "index.html": "/IIS_City_Campus/index.html",
-    "main.d3e89d26.css.map": "/IIS_City_Campus/static/css/main.d3e89d26.css.map",
-    "main.ea00a565.js.map": "/IIS_City_Campus/static/js/main.ea00a565.js.map",
+    "main.7080a082.css.map": "/IIS_City_Campus/static/css/main.7080a082.css.map",
+    "main.3093906e.js.map": "/IIS_City_Campus/static/js/main.3093906e.js.map",
     "453.d855a71b.chunk.js.map": "/IIS_City_Campus/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3e89d26.css",
-    "static/js/main.ea00a565.js"
+    "static/css/main.7080a082.css",
+    "static/js/main.3093906e.js"
   ]
 }
