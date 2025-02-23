@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom'
 function AdminSide() {
+    const navigate = useNavigate();
   return (
     <div>
         <div className='flex flex-col'>
@@ -17,11 +18,11 @@ function AdminSide() {
             <div className='w-full bg-white '></div>
             <div >
                 <ul className='flex flex-col gap-2 p-3'>
-                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin-dashboard'>Dashboard</a></li>
-                    <li className='bg-gray-200 p-3 rounded-md'><a href='admin-main'>Users</a></li>
-                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/gallery'>Gallery</a></li>
-                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/contact'>Contact</a></li>
-                    <li className='bg-gray-200 p-3 rounded-md'><a href='/admin/about'>About</a></li>
+                    <li className='hover:scale-110 hover:bg-gradient-to-l from-b3 to-r2 p-3 rounded-md'><span onClick={()=>navigate('admin-main')}>Dashboard</span></li>
+                    <li className='hover:scale-110 hover:bg-gradient-to-l from-b3 to-r2 p-3 rounded-md'><span onClick={()=>navigate('staff')}>Start</span></li>
+                    <li className='hover:scale-110 hover:bg-gradient-to-l from-b3 to-r2 p-3 rounded-md'><span onClick={()=>navigate('students')}>Gallery</span></li>
+                    <li className='hover:scale-110 hover:bg-gradient-to-l from-b3 to-r2 p-3 rounded-md'><a href='/admin/contact'>Contact</a></li>
+                    <li className='hover:scale-110 hover:bg-gradient-to-l from-b3 to-r2 p-3 rounded-md'><a href='/admin/about'>About</a></li>
                 </ul>
             </div>
         </div>

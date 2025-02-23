@@ -2,7 +2,7 @@ import React from 'react'
 import {motion, AnimatePresence} from 'framer-motion'
 import { scroller } from 'react-scroll'
 import { Link } from 'react-router-dom'
-
+import { useNavigate } from 'react-router-dom'
 const NavbarMenu = [
     {
         id: 1,
@@ -32,6 +32,7 @@ const NavbarMenu = [
 ]
 
 function Sidebar({open}) {
+    const navigate = useNavigate();
   const handleScroll = (id) => {
           scroller.scrollTo(id, {
               duration: 500,
@@ -70,7 +71,7 @@ function Sidebar({open}) {
                                     )}
                                 </li>
                             ))}
-                    <li>Login</li>
+                    <li onClick={() => navigate('/circulate/login')}>Login</li>
                     <li>LMS</li>
               </ul>
             </div>

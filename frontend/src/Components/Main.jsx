@@ -20,7 +20,7 @@ function Main() {
             <section id='upcomming' className='mb-10 md:mb-0'>
                 <UpComming />
             </section>
-            <section id='events' className='mb-5 mx-5 md:mb-0'>
+            <section id='events' className=''>
                 <Events />
             </section>
             <section id='courses'>

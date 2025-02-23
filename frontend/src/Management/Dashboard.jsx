@@ -2,6 +2,7 @@ import React from 'react'
 import AdminTop from './AdminTop.jsx'
 import AdminSide from './AdminSide.jsx'
 import Mainroute from './Mainroute.jsx'
+import { Outlet } from 'react-router-dom'
 function Dashboard() {
   return (
     <div>
@@ -11,7 +12,7 @@ function Dashboard() {
         </div>
         <div className='w-10/12'>
           <AdminTop/>
-          <Mainroute />
+          <Outlet />
         </div>
       </div>
     </div>

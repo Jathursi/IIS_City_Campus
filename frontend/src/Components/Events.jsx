@@ -74,12 +74,12 @@ function Events() {
   };
 
   return (
-    <section>
-      <div className="container">
+    <section className='mb-5 mx-5 md:mb-0'>
+      <div className="container ">
         <h1 className='text-2xl text-b3 font-bold text-left pb-10 uppercase'>
           Past Events
         </h1>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
+        <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8'>
           {pastEvents.map((event) => (
             <div
               key={event.sys.id}

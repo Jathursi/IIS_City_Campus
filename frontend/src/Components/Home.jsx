@@ -44,7 +44,7 @@ function Home() {
         development, the institution offers a wide range of programs designed to equip students with 
         industry-relevant skills. 
       </p>
-      <p className='text-2xl m-3 tracking-wide'>Success through knowledge</p>
+      <p className='text-2xl text-center m-3 tracking-wide'>Success through knowledge</p>
       <p className='text-gray-400 mb-4 md:mb-0'>Join with us through WHATSAPP</p>
       <div className="flex justify-center my-10">
         <Link to='https://chat.whatsapp.com/Ev9nGemFLcD5LByrx7plUt'>
@@ -52,15 +52,6 @@ function Home() {
                 whatsapp
             </button>
         </Link>
-        {/* <a
-          href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
-        >
-          Start for free
-        </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
-        </a> */}
       </div>
     </div>
     </div>
